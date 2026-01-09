@@ -23,18 +23,18 @@
 // // }
 
 
-// function checkEmail(emailID) {
-//     var email = document.getElementById(emailID) 
-//     // if (email === "") {
-//     //     alert("please enter your email")x
-//     // } else if (email === "rafay@email.com") {
-//     //     console.log("your email is not correct==>", email)
-//     // } else {
-//     //     console.log("your email is correct==>", email)
-//     // }
-//     console.log("Email==>", email)
-//     console.log("emailID==>", emailID)
-// }
+function checkEmail(emailID) {
+    var email = document.getElementById(emailID).value;
+    if (email === "") {
+        alert("please enter your email")
+    } else if (email.includes("@") === false) {
+        alert("your email is not correct, missing @ symbol")
+    } else {
+        alert("your email is correct", email)
+    }
+    console.log("Email==>", email)
+    console.log("emailID==>", emailID)
+}
 
 
 // // function clickH1TagColor() {
