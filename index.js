@@ -15,6 +15,8 @@ function checkEmail(emailID) {
 
 function checkCampus() {
     var rollNumber = document.getElementById("rollNumber").value;
+    // var button = document.getElementById("buttonCampus").value;
+    // var conbine = rollNumber + button;
     var campus = "";
 
     switch (rollNumber) {
@@ -34,19 +36,20 @@ function checkCampus() {
 
     document.getElementById("campus").value = campus;
 
+    // console.log("conbine==>", conbine)
     console.log("campus==>", campus)
 }
 
 var paragraph = false;
 
 function expentpara() {
-    var expandedText = 'Ya hai click karna k bad ka text';
+    var expandedText = ' javascript is a programming language that is used to make web pages';
 
     if (!paragraph) {
         document.getElementById("expent").innerHTML = expandedText + ' <a href="#" onclick="expentpara()"><em> Click for Less</em></a>';
         paragraph = true;
     } else {
-        document.getElementById("expent").innerHTML = ' This is a small information <a href="#" onclick="expentpara()"><em> Click for more</em></a>';
+        document.getElementById("expent").innerHTML = ' javascript is a program... <a href="#" onclick="expentpara()"><em> Click for more</em></a>';
         paragraph = false;
     }
 }
@@ -106,7 +109,7 @@ function smallImage() {
     image.className = "smallImage";
     console.log("image==>", image)
 }
- 
+
 // first car image hide and show
 
 
