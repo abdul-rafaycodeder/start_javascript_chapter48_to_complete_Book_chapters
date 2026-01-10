@@ -90,17 +90,8 @@ function listImage() {
 
 }
 
-// first car image hide and show
-
-function hideImage() {
-    document.getElementById("hideImage").className = "imageHide";
-}
 
 
-
-function showImage() {
-    document.getElementById("hideImage").className = "";
-}
 
 // second image big and small on hover
 
@@ -115,4 +106,21 @@ function smallImage() {
     image.className = "smallImage";
     console.log("image==>", image)
 }
+ 
+// first car image hide and show
+
+
+// function hideImage() {
+//     document.getElementById("hideImage").className = "imageHide";
+// }
+
+
+
+// function showImage() {
+//     document.getElementById("hideImage").className = "";
+// }
+
+
+//------------------------start chapter 53----------------------//
+
 
