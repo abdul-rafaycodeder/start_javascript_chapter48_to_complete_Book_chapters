@@ -43,8 +43,8 @@ function expentpara() {
     var expentpara = 'Ya hai click karna k bad ka text'
 
     if(paragraph === false) {
-        document.getElementById("expent").innerHTML = expentpara +  '<a href="#" onclick="expentpara()"><em> Click for Less</em></a>';
-        paragraph = true;
+        document.getElementById("expent").innerHTML = expentpara +   for Less</em></a>';
+        paragraph = true;'<a href="#" onclick="expentpara()"><em> Click
     } else {
         document.getElementById("expent").innerHTML = ' This is a small information <a href="#" onclick="expentpara()"><em> Click for more</em></a>';
         paragraph = false;
