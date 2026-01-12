@@ -127,3 +127,32 @@ function smallImage() {
 //------------------------start chapter 53----------------------//
 
 
+
+function changeImage() {
+    var iamge = document.getElementById("carImage");
+    iamge.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGHxsC9M1B34riNQ9EiG1YbdTZGrTD5KXlQ&s"
+    console.log("iamge==>", iamge)
+}
+
+
+function outImage() {
+    var outImage = document.getElementById("carImage");
+    outImage.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fehJccs0vA7le8QDxQfr_zy1T2Otb5DjYw&s"
+    console.log("outImage==>", outImage)
+}
+
+
+
+function changeImage2() {
+    var image= document.getElementById("carImage2")
+    image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGHxsC9M1B34riNQ9EiG1YbdTZGrTD5KXlQ&s"
+    console.log("carImage2==>", image)
+}
+
+
+function outImage2() {
+    var outImage2 = document.getElementById("carImage").className = "carImage2"
+    console.log("outImage2==>", outImage2)
+}
+
+//------------------------end chapter 54----------------------//
