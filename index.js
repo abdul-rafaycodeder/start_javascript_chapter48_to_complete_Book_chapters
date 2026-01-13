@@ -142,17 +142,48 @@ function outImage() {
 }
 
 
+/*----------------------chapter 53------------------ */
+
 
 function changeImage2() {
-    var image= document.getElementById("carImage2")
+    var image = document.getElementById("carImage2")
     image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGHxsC9M1B34riNQ9EiG1YbdTZGrTD5KXlQ&s"
     console.log("carImage2==>", image)
 }
 
 
-function outImage2() {
-    var outImage2 = document.getElementById("carImage").className = "carImage2"
-    console.log("outImage2==>", outImage2)
+//------------------------chapter 54----------------------//
+
+
+// function changeImage (){
+//     var imageChange = document.getElementById("CarImageChange")
+//     imageChange.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG352G_823AGJA5su_DA7a7TLtwUnaDyKNrA&s"
+//     console.log(imageChange)
+// }
+
+// function changeImage2() {
+//     var changeImage2 = document.getElementById("CarImageChange")
+//     changeImage2.src = "https://images.unsplash.com/photo-1628519592419-bf288f08cef5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww"
+//     console.log(changeImage2)
+// }
+
+
+function ImageGib() {
+    var image = document.getElementById("imahehange")
+    image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjDkGmihQuiJ1iZHzQpwJ9JPBO6BnViVmU7Q&s"
+    image.className = "image"
+    console.log(image)
 }
 
-//------------------------end chapter 54----------------------//
+function imageSmall () {
+    var imageSmall = document.getElementById("imahehange")
+    imageSmall.src = "https://images.unsplash.com/photo-1628519592419-bf288f08cef5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww"
+imageSmall.className = "smallImage"
+}
+
+
+//------------------------chapter 55----------------------//
+
+
+
+
