@@ -74,21 +74,21 @@ function list() {
 
 }
 
-var oderList = false;
+var oderListImageVisible = false;
 
 function listImage() {
     var listItems = '<img src="https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwY2FyfGVufDB8fDB8fHww" alt="Car image" width="200px">';
     var oderListH1 = '<h1>Image</h1>';
     var buttonTextchange = 'Click to Hide Image';
 
-    if (oderList === false) {
+    if (oderListImageVisible === false) {
         document.getElementById("oderListImage").innerHTML = oderListH1 + listItems;
         document.getElementById("changeOderListButtonImage").innerText = buttonTextchange;
-        oderList = true;
+        oderListImageVisible = true;
     } else {
         document.getElementById("oderListImage").innerHTML = '';
         document.getElementById("changeOderListButtonImage").innerText = 'Click to get images ';
-        oderList = false;
+        oderListImageVisible = false;
     }
 
 }
@@ -204,28 +204,47 @@ function defaulSetting() {
 
 // <!-- -------------------chapter 56---------------- -->
 
-
-// var para = document.getElementsByTagName("p")
-// var checkPara = para[0].innerHTML = "app ka kya naam hai mujhe batao na please"
-// console.log("checkPara==>", checkPara)  
-// console.log("para==>",para)
-
-// for (var i = 0; i < para.length; i++) {
-//     para[i].className = "parahover"
-//     para[i].style.fontSize = "2em"
-//     para[i].innerText = "mara naam abdul rafay"
-//     para[i].style.backgroundColor = "yellow"
-//     para[i].style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
-// }
-
-// function click() {
-
-// }
-
 var allParagrapf = document.getElementsByTagName("h3")
-var checkParagrapf = allParagrapf[3].innerText 
+var checkParagrapf = allParagrapf[3]
 
 
 
-console.log("allParagrapf==>",allParagrapf)
-console.log("checkParagrapf==>",checkParagrapf)
+// console.log("allParagrapf==>", allParagrapf[2])
+// console.log("checkParagrapf==>", checkParagrapf)
+
+
+
+
+for (let i = 0; i < allParagrapf.length; i++) {
+    allParagrapf[i].innerHTML = "mara naam abdul rafay hai";
+    allParagrapf[i].style.backgroundColor = "yellow";
+    allParagrapf[i].style.fontSize = "2em";
+    allParagrapf[i].style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+}
+
+if (allParagrapf.length > 0) {
+    allParagrapf[0].style.backgroundColor = "red";
+}
+if (allParagrapf.length > 1) {
+    allParagrapf[1].style.backgroundColor = "red";
+    allParagrapf[1].style.color = "white";
+}
+
+// <!-- -------------------chapter 57---------------- -->
+
+
+// var firstDiv = document.getElementById("fristDiv")
+
+// var secondDiv = firstDiv.querySelector("#secondDiv")
+
+// var insideDivAllPara = secondDiv.getElementsByTagName("p");
+
+
+// console.log("firstDiv==>", firstDiv);
+
+// console.log("secondDiv==>", secondDiv);
+
+// console.log("insideDivAllPara==>", insideDivAllPara[2]);
+
+
+var firstDiv = document.getAnimations
