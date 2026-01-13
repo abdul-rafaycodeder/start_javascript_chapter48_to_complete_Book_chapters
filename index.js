@@ -175,15 +175,57 @@ function ImageGib() {
     console.log(image)
 }
 
-function imageSmall () {
+function imageSmall() {
     var imageSmall = document.getElementById("imahehange")
     imageSmall.src = "https://images.unsplash.com/photo-1628519592419-bf288f08cef5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BvcnRzJTIwY2FyfGVufDB8fDB8fHww"
-imageSmall.className = "smallImage"
+    imageSmall.className = "smallImage"
 }
 
 
 //------------------------chapter 55----------------------//
 
+function changeFontSize() {
+    var h1 = document.getElementById("heading")
+    h1.className = "trasi"
+    // h1.style.transition = "1s"
+    h1.style.backgroundColor = "yellow"
+    h1.style.color = "black"
+    h1.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+}
+
+function defaulSetting() {
+    var h1 = document.getElementById("heading")
+    h1.className = "trasi"
+    // h1.style.transition = "1s"
+    h1.style.color = "black"
+    h1.style.backgroundColor = "white"
+    h1.style.fontFamily = "'Courier New', Courier, monospace"
+}
+
+// <!-- -------------------chapter 56---------------- -->
+
+
+// var para = document.getElementsByTagName("p")
+// var checkPara = para[0].innerHTML = "app ka kya naam hai mujhe batao na please"
+// console.log("checkPara==>", checkPara)  
+// console.log("para==>",para)
+
+// for (var i = 0; i < para.length; i++) {
+//     para[i].className = "parahover"
+//     para[i].style.fontSize = "2em"
+//     para[i].innerText = "mara naam abdul rafay"
+//     para[i].style.backgroundColor = "yellow"
+//     para[i].style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+// }
+
+// function click() {
+
+// }
+
+var allParagrapf = document.getElementsByTagName("h3")
+var checkParagrapf = allParagrapf[3].innerText 
 
 
 
+console.log("allParagrapf==>",allParagrapf)
+console.log("checkParagrapf==>",checkParagrapf)
